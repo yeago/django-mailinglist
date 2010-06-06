@@ -1,5 +1,5 @@
 from django.contrib import admin
-from misc.orlpro.subscriber.models import *
+from mailsubscriber.models import Subscriber 
 
 class SubscriberAdmin(admin.ModelAdmin):
 	pass

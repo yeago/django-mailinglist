@@ -4,7 +4,7 @@ from django.contrib.sites.models import Site
 from django.conf import settings
 from django.core.mail import send_mail
 
-from misc.orlpro.subscriber.models import Subscriber
+from mailsubscriber.models import Subscriber
 
 class SubscribeForm(forms.ModelForm):
 	class Meta:
