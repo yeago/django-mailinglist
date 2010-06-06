@@ -1,0 +1,11 @@
+Hello and welcome to the {{ site }} mailing list. You will now be privy to
+site updatesa and other announcements and from {{ owner }}.
+
+Thanks for joining!
+
+{{ owner }}{% if title %}, {{ title }} {% endif %}
+{{ domain }}
+PS: Not sure why you're receiving this? Want to be REMOVED from this list? Simply
+click or visit the link below:
+
+http://{{ domain }}{% url unsubscribe %}?email={{ email }}&token={{ token }}

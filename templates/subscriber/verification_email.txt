@@ -1,0 +1,5 @@
+You're just one step away from joining {{ owner }}'s announcement list.
+
+Just click or visit the link below.
+
+http://{{ domain }}{% url subscribe %}?email={{ email }}&token={{ token }}
