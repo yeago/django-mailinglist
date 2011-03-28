@@ -9,7 +9,7 @@ admin.autodiscover()
 # from django.contrib import admin
 # admin.autodiscover()
 
-urlpatterns = patterns('misc.orlpro.subscriber.views',
+urlpatterns = patterns('mailsubscriber.views',
 	url(r'^subscribe/$',	'subscribe',	name="subscribe"),
 	url(r'^unsubscribe/$',	'unsubscribe',	name="unsubscribe"),	
 )

@@ -1,5 +1,5 @@
 from django.template import Library, Node
-from misc.orlpro.subscriber.forms import SubscribeForm
+from mailsubscriber.forms import SubscribeForm
 
 register = Library()
 
